@@ -242,6 +242,9 @@ section {
   height:100%;
   position: relative;
   margin: auto;
+  border-top: 4px solid #b8860b;
+  border-bottom: 4px solid #b8860b;
+  box-sizing: border-box;
 }
 
 /* Caption text */
@@ -301,6 +304,7 @@ section {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
 
 #kitchen1 {
   background: url(images/kitchen.jpg) no-repeat center center;
